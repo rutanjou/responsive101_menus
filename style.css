@@ -1,18 +1,33 @@
-@media screen and (min-device-width: 800px) {
-	li{
-		display:inline-block;		
-	}
-	a{
-		margin-left: 50px;
-		padding-left: 150px;
-		text-decoration: none;
-		font-size: 20px;
-		color: #800080;
-	}
+.menu{
+	display: block;
+	color:  #800080;
+	height: 5em;
+	border: black solid 2px;
+}
+
+.haut li{
+	display:inline-block;		
+}
+
+a{
+	margin-left: 50px;
+	padding-left: 150px;
+	text-decoration: none;
+	font-size: 20px;
+	color: #800080;
+}
+.petitMenu li{
+
+}
+@media screen and (max-device-width: 800px) {
 
 	.haut{
-		display: block;
-		color: #ffffff;
-		height: 50em;
+		display: none;
+	}
+
+}
+@media screen and (min-device-width: 801px) {
+	.petitMenu li {
+		display: none;
 	}
 }
